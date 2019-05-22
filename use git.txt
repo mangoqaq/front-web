@@ -16,3 +16,5 @@ git push :上传到git上
 git branch :查看所有分支
 git branch [分支名称] ：创建分支
 git checkout [分支名称] ：切换到选定分支上
+git merge [分支名称] ：（先切换到要将分支合并到一起的主支上）在主分支上合并分支
+git branch -d [分支名称] ：删除分支
