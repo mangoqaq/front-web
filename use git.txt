@@ -1,0 +1,11 @@
+将git上的内容拉到本地文件夹中：git clone [git上自动生成的网址]
+生成ssh密钥： ssh-keygen -t RSA -C '自己的邮箱'
+打开生成文件位置，打开id_rsa.pub文件，复制全部，打开自己的git,setting--ssh and gpg keys--新建ssh命令，titl随意填写，内容部分复制进去文件中的内容
+git status：查看本地git文件中的文件状态
+git仓库：
+    暂存区（文件可能丢失），红色表示
+    工作区（保存文件当前编辑状态的区域，文件保存在git仓库临时区域），绿色表示   
+    git仓库
+
+git add [文件名或'.'(表示所有文件)]：将选定的文件添加到工作区中
+git commit -m '添加使用git基本方式的文件' :-m后即注释说明
