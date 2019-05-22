@@ -11,3 +11,8 @@ git add [文件名或'.'(表示所有文件)]：将选定的文件添加到工�
 git commit -m '添加使用git基本方式的文件' :-m后即注释说明
 git push :上传到git上
 在github上对文件进行修改后，在本地文件中更改内容，接着在本地上git add . ,此时本地与github上内容版本不同，即先git pull,拉取资源，接着在本地进行处理后，在进行上传操作。
+
+
+git branch :查看所有分支
+git branch [分支名称] ：创建分支
+git checkout [分支名称] ：切换到选定分支上
