@@ -10,3 +10,4 @@ git仓库：
 git add [文件名或'.'(表示所有文件)]：将选定的文件添加到工作区中
 git commit -m '添加使用git基本方式的文件' :-m后即注释说明
 git push :上传到git上
+当本地与github上文件内容不一样时，先进行拉取（git pull）
